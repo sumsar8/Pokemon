@@ -1,0 +1,92 @@
+.blackbox1{
+    position:absolute;
+    background-color: black;
+    width:20%;
+    height:100%;
+    top:0%;
+    left:0%;
+    z-index: 100;
+}
+.blackbox2{
+    position:absolute;
+    background-color: black;
+    width:20%;
+    height:100%;
+    top:0%;
+    left:80%;
+
+}
+body {
+    margin:0px;
+    overflow:hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.bottomBar{
+    border-top: 3px solid;
+    height:25%;
+    top:75%;
+    width:100%;
+    position:absolute;
+    background-color: aqua;
+}
+.ovalbattleground1{
+    width:80%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(35, 156, 35);
+    position:absolute;
+    top:55%;
+    left:-15%;
+}
+.ovalbattleground2{
+    width:35%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: rgb(35, 156, 35);
+    position:absolute;
+    top:5%;
+    left:55%;
+}
+.myPokemon{
+    position:absolute;
+    top:30%;
+    left: 25%;
+}
+.opponentPokemon{
+    position:absolute;
+    top: -27%;
+    left:60%;
+}
+.myHealthBar{
+    position:absolute;
+    width:20%;
+    height:10%;
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 3px;
+    top:50%;
+    left:60%; 
+}
+.opponentHealthBar{
+    position:absolute;
+    width:20%;
+    height:10%;
+    background-color: aquamarine;
+    border: 3px solid;
+    top:1.5%;
+    left:19.7%; 
+}
+.fightbox{
+    width:80%;
+}
+.fightscene{
+    background-image: url("images/Background.jpg");
+}
+p.PokemonNameClass{
+    margin:0px;
+}
+p.opponentNameClass{
+    margin:0px;
+}

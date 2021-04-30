@@ -5,64 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background: gainsboro;
-        margin:0px;
-        overflow:h  idden;
-    }
-    ::-webkit-scrollbar{
-        display: none;
-    }
-    .bottombar{
-        border-style: solid;
-        border-width: 3px;
-        height:25%;
-        top:75%;
-        width:100%;
-        position:absolute;
-        background-color: aqua;
-    }
-    .ovalbattleground1{
-        width:450px;
-        height: 300px;
-        border-radius: 50%;
-        background-color: black;
-        position:absolute;
-        top:55%;
-        left:-5%;
-    }
-    .ovalbattleground2{
-        width:450px;
-        height: 300px;
-        border-radius: 50%;
-        background-color: black;
-        position:absolute;
-        top:5%;
-        left:65%;
-    }
-    .myPokemon{
-        position:absolute;
-        top:40%;
-        left:5%;
-    }
-    .opponentPokemon{
-        position:absolute;
-        top: -15%;
-        left:75%;
-    }
-</style>
 <body>
+    <div class="fightscene">
+    <div class="blackbox1"></div>
+    <div class="fightbox">
       <div class="ovalbattleground2"></div>
       <div class="ovalbattleground1"></div>
+      <div class="opponentHealthBar">
+        <p class="opponentNameClass" id="opponentNameID">Weeb Dog</p>
+      </div>
       <div class="myPokemon" id="OwnerPokemonID">
-        <img src="images/ronnie.png" alt="ronnie" width="50%">
+        <img src="images/ronnie.png" alt="ronnie" width="60%">
       </div>
-      <div class="opponentPokemon" id="OpponentPokemonId">
-          <img src="images/Weeb.png" alt="emil" width="120%">
+      <div class="myHealthBar">
+          <p class="PokemonNameClass" Id="PokemonNameID">Chad</p>
       </div>
-      <div class="bottombar">
+      <div class="opponentPokemon" id="opponentPokemonId">
+          <img src="images/Weeb.png" alt="emil" width="80%">
+      </div>
+      <div class="bottomBar"></div>
+      </div>
+      <div class="blackbox2"></div>
       </div>
 </body>
 <script src="index.js"></script>
