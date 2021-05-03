@@ -9,23 +9,38 @@
 </head>
 <body>
     <div class="fightscene">
+      <img src="images/Background.jpg" alt="background" width="1920px" height="1080px">
     <div class="blackbox1"></div>
     <div class="fightbox">
       <div class="ovalbattleground2"></div>
       <div class="ovalbattleground1"></div>
       <div class="opponentHealthBar">
+        <progress id="opponenthealth" value="100" max="100"></progress>
         <p class="opponentNameClass" id="opponentNameID">Weeb Dog</p>
       </div>
       <div class="myPokemon" id="OwnerPokemonID">
         <img src="images/ronnie.png" alt="ronnie" width="60%">
       </div>
       <div class="myHealthBar">
+        <progress id="myhealth" value="100" max="100"></progress>
           <p class="PokemonNameClass" Id="PokemonNameID">Chad</p>
       </div>
       <div class="opponentPokemon" id="opponentPokemonId">
           <img src="images/Weeb.png" alt="emil" width="80%">
       </div>
-      <div class="bottomBar"></div>
+      <div class="chatbox" id="chatID">
+        <p id="chattextID">Make a move</p>
+      </div>
+      <div class="bottomBar">
+        <div class="abilitybox1" onclick="ability1()">
+          
+      </div>
+      <div class="abilitybox2">
+      </div>
+      <div class="abilitybox3">
+      </div>
+      <div class="abilitybox4">
+      </div>
       </div>
       <div class="blackbox2"></div>
       </div>
