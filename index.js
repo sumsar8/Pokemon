@@ -10,12 +10,12 @@ let opponenthealth = document.getElementById("opponenthealth");
         document.getElementById("chattextID").innerHTML = "Chad hit Weeb Dog";
         setTimeout(() => {
             textback()
-        }, 20000);
+        }, 2000);
     } else {
         document.getElementById("chattextID").innerHTML = "Chad missed";
         setTimeout(() => {
             textback()
-        }, 100);
+        }, 1000);
     }
  }
  function ability2(){
