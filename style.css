@@ -135,5 +135,11 @@ p.opponentNameClass{
     text-align: center;
     margin:0px;
     margin-top:10px;
-
+}
+.abilitytext{
+    font-size: larger;
+    text-align: center;
+    margin:0px;
+    margin-top:15px;
+    color:rgb(255, 255, 255);
 }
