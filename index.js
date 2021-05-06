@@ -1,3 +1,4 @@
+let myhealth = document.getElementById("myhealth");
 
 let opponenthealth = document.getElementById("opponenthealth");
 
