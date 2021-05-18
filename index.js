@@ -54,7 +54,3 @@ function textback(){
     document.getElementById("abilitiesID").style.display = "initial";
 
 }
-
-
-
-var array = ["fläsk"]
