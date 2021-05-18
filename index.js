@@ -57,3 +57,4 @@ function textback(){
 
 
 
+var array = ["fläsk"]
