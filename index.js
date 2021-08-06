@@ -2,7 +2,7 @@ let myhealth = document.getElementById("myhealth");
 
 let opponenthealth = document.getElementById("opponenthealth");
 
-const Ronniestats = { name: "Ronnie", hp: 50, attackdamage: 15}
+let Ronniestats = { name: "Ronnie", hp: 50, attackdamage: 15, }
 const ability1damage = 10;
  function ability1(){
 
@@ -41,7 +41,7 @@ const ability1damage = 10;
     }
  }
  function ability2(){
-    console.log(Ronniestats.hp - 50);
+    console.log(Ronniestats.hp);
  }
  function ability3(){
 
